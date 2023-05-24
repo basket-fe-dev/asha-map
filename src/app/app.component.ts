@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
   ]
 
   async ngOnInit(): Promise<void> {
-    // this.initMap();
+    this.initMap();
   }
 
   private async initMap(): Promise<void> {
@@ -35,6 +35,7 @@ export class AppComponent implements OnInit {
     this.map = new Map(this.mapElement.nativeElement, {
       center: usLatLng,
       zoom: 4,
+      streetViewControl: false,
     });
 
     this.markers.forEach(marker => {
