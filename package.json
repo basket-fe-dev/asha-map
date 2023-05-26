@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "pages": "ng build --output-path=docs --base-href=https://basket-fe-dev.github.io/asha-map/"
   },
   "private": true,
   "dependencies": {
