@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { markers } from './markers.const';
 
 @Component({
   selector: 'am-root',
@@ -9,19 +10,6 @@ export class AppComponent implements OnInit {
   @ViewChild('map') mapElement!: ElementRef;
 
   map!: google.maps.Map;
-
-  private markers: Marker[] = [
-    {
-      lat: 36.7281,
-      lng: -91.8524,
-      title: 'A1'
-    },
-    {
-      lat: 27.9506,
-      lng: -82.4572,
-      title: 'C4',
-    },
-  ]
 
   async ngOnInit(): Promise<void> {
     this.initMap();
@@ -38,7 +26,7 @@ export class AppComponent implements OnInit {
       streetViewControl: false,
     });
 
-    this.markers.forEach(marker => {
+    markers.forEach(marker => {
       const item = new google.maps.Marker({
         position: new google.maps.LatLng(marker.lat, marker.lng),
         title: marker.title
@@ -49,8 +37,4 @@ export class AppComponent implements OnInit {
   }
 }
 
-interface Marker {
-  lat: number,
-  lng: number,
-  title: string,
-}
+
