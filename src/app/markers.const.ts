@@ -150,5 +150,10 @@ export const markers: Marker[] = [
     lat: 46.0646,
     lng: -118.3430,
     title: 'QFPI'
+  },
+  {
+    lat: 43.8212,
+    lng: -69.6645,
+    title: 'WQXF'
   }
 ];
