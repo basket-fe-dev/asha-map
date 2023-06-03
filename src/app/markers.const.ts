@@ -165,5 +165,85 @@ export const markers: Marker[] = [
     lat: 43.4262,
     lng: -73.7123,
     title: 'IDYM'
+  },
+  {
+    lat: 47.7511,
+    lng: -120.7401,
+    title: 'XUAW'
+  },
+  {
+    lat: 30.5169,
+    lng: -86.4822,
+    title: 'ATLH',
+  },
+  {
+    lat: 45.5197,
+    lng: -123.1121,
+    title: 'UCHG',
+  },
+  {
+    lat: 46.5099,
+    lng: -114.0932,
+    title: 'AJPJ',
+  },
+  {
+    lat: 35.9606,
+    lng: -83.9207,
+    title: 'OAGT',
+  },
+  {
+    lat: 39.0997,
+    lng: -94.5786,
+    title: 'ILCP',
+  },
+  {
+    lat: 44.9591,
+    lng: -89.6301,
+    title: 'WBTN',
+  },
+  {
+    lat: 40.4173,
+    lng: -82.9071,
+    title: 'TWHC',
+  },
+  {
+    lat: 44.5133,
+    lng: -88.0133,
+    title: 'KQTV',
+  },
+  {
+    lat: 60.1282,
+    lng: 18.6435,
+    title: 'ELTT',
+  },
+  {
+    lat: 64.1470,
+    lng: -21.9408,
+    title: 'QKBD',
+  },
+  {
+    lat: 55.0727,
+    lng: -24.2793,
+    title: 'IHDK',
+  },
+  {
+    lat: 53.3498,
+    lng: -6.2603,
+    title: 'ARVE',
+  },
+  {
+    lat: 34.0489,
+    lng: -111.0937,
+    title: 'PJJN',
+  },
+  {
+    lat: 47.7237,
+    lng: -122.4713,
+    title: 'GRZU',
+  },
+  {
+    lat: 29.9012,
+    lng: -81.3124,
+    title: 'OSHT',
   }
 ];
