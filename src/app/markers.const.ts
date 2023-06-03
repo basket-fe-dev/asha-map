@@ -223,7 +223,7 @@ export const markers: Marker[] = [
   },
   {
     lat: 55.0727,
-    lng: -24.2793,
+    lng: 24.2793,
     title: 'IHDK',
   },
   {
